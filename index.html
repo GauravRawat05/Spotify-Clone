@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+      href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="lefttop">
+        <img src="/Assets/logo.svg" alt="logo" class="lefttopImg" />
+        <ul>
+          <li><img src="/Assets/home.svg" alt="home" />Home</li>
+          <li><img src="/Assets/search.svg" alt="search" />Search</li>
+        </ul>
+      </div>
+      <div class="leftbottom">
+        <div class="leftbottomtop">
+          <img src="/Assets/library.svg" alt="library" />
+          <p>Your Library</p>
+          <button>+</button>
+        </div>
+        <div class="leftbottommiddle">
+          <div class="songslist">
+            <ul class="listss">
+              <!-- <li>
+                <img src="/Assets/song.svg" alt="song">
+                <div class="songName"></div>
+                <img src="/Assets/play.svg" alt="play">
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="righttop">
+        <div class="righttopleft">
+          <img src="/Assets/left.svg" alt="left" />
+          <img src="/Assets/right.svg" alt="right" />
+        </div>
+        <div class="righttopright">
+          <button>Sign Up</button>
+          <button>Log in</button>
+        </div>
+      </div>
+      <div class="rightbottom">
+        <h3>Popular Albums</h3>
+        <div class="RightBottom">
+          <!-- <div class="albumcard">
+            <img src="/Assets/card.jfif" alt="albumPhoto" />
+            <p>Making Memories</p>
+            <p>Karan Aujla, Ikky</p>
+          </div> -->
+        </div>
+        <div class="rightlow">
+          <div class="SongInfo">
+            <div class="DisplaySongName"></div>
+            <div class="DisplaySongTime"></div>
+          </div>
+          <div class="SongBar">
+            <div class="SeekSongBar"></div>
+          </div>
+          <div class="SongControl">
+            <div>
+            <img src="/Assets/previous.svg" alt="Previous" id="Previous">
+            <img src="/Assets/play.svg" alt="Play" id="Play">
+            <img src="/Assets/next.svg" alt="Next" id="Next">
+          </div>
+            <div class="volume-control">
+              <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,308 @@
+/* General body styling */
+body {
+    background-color: #000000; /* Set background color to black */
+    color: white; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Set font family */
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Gap between flex items */
+  }
+  
+  /* Styling for the left section */
+  .left {
+    width: 20vw; /* Set width to 20% of viewport width */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    gap: 10px; /* Gap between flex items */
+  }
+  
+  /* Styling for the right section */
+  .right {
+    display: flex; /* Use flexbox for layout */
+    width: 80vw; /* Set width to 80% of viewport width */
+    /* height: 515px; */ /* Commented out height */
+    flex-direction: column; /* Arrange items in a column */
+  }
+  
+  /* Styling for the top part of the left section */
+  .lefttop {
+    min-width: 200px; /* Minimum width of 200px */
+    height: 130px; /* Fixed height of 130px */
+    background-color: #121212; /* Set background color */
+    border-radius: 10px; /* Rounded corners */
+    padding-left: 25px; /* Left padding */
+    padding-top: 25px; /* Top padding */
+  }
+  
+  /* Styling for images in the lefttop section */
+  .lefttopimg {
+    width: 4vw; /* Set width to 4% of viewport width */
+    max-width: 80px; /* Maximum width of 80px */
+  }
+  
+  /* Styling for unordered list in the lefttop section */
+  .lefttop ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    font-size: small; /* Set font size to small */
+    font-weight: 800; /* Set font weight to bold */
+  }
+  
+  /* Styling for list items in the lefttop section */
+  .lefttop ul li {
+    place-items: center; /* Center items */
+    display: flex; /* Use flexbox for layout */
+    gap: 15px; /* Gap between flex items */
+    padding-bottom: 25px; /* Bottom padding */
+  }
+  
+  /* Styling for images in the list items */
+  .lefttop ul li img {
+    width: 20px; /* Fixed width of 20px */
+  }
+  
+  /* Styling for the bottom part of the left section */
+  .leftbottom {
+    height: 350px; /* Fixed height of 350px */
+    min-width: 200px; /* Minimum width of 200px */
+    background-color: #121212; /* Set background color */
+    border-radius: 10px; /* Rounded corners */
+    padding-left: 25px; /* Left padding */
+  }
+  
+  /* Styling for the top part of the leftbottom section */
+  .leftbottomtop {
+    display: flex; /* Use flexbox for layout */
+    place-items: center; /* Center items */
+  }
+  
+  /* Styling for images in the leftbottomtop section */
+  .leftbottomtop img {
+    padding-right: 10px; /* Right padding */
+    width: 20px; /* Fixed width of 20px */
+  }
+  
+  /* Styling for buttons in the leftbottomtop section */
+  .leftbottomtop button {
+    width: 30px; /* Fixed width of 30px */
+    border-radius: 15px; /* Rounded corners */
+    border: none; /* Remove default border */
+    background-color: #121212; /* Set background color */
+    color: white; /* Set text color */
+    font-size: x-large; /* Set font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: 0.5s; /* Smooth transition */
+    margin-left: 50px; /* Left margin */
+  }
+  
+  /* Hover effect for buttons in the leftbottomtop section */
+  .leftbottomtop button:hover {
+    background-color: #000000; /* Change background color on hover */
+  }
+  
+  /* Styling for the top part of the right section */
+  .righttop {
+    border-radius: 10px 10px 0px 0px; /* Rounded top corners */
+    height: 60px; /* Fixed height of 60px */
+    background-color: #0e0e0e; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    place-items: center; /* Center items */
+  }
+  
+  /* Styling for the bottom part of the right section */
+  .rightbottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 10px 10px; /* Rounded bottom corners */
+    height: 454px; /* Fixed height of 454px */
+    background-color: #1b1b1b; /* Set background color */
+    padding-left: 22px; /* Left padding */
+    padding-right: 30px; /* Right padding */
+  }
+  
+  /* Styling for images in the righttopleft section */
+  .righttopleft img {
+    background-color: #1b1b1b; /* Set background color */
+    padding: 5px; /* Padding */
+    border-radius: 50%; /* Rounded corners */
+    width: 20px; /* Fixed width of 20px */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Styling for the righttopleft section */
+  .righttopleft {
+    padding-left: 20px; /* Left padding */
+  }
+  
+  /* Styling for the righttopright section */
+  .righttopright {
+    padding-right: 20px; /* Right padding */
+  }
+  
+  /* Styling for the first child in the righttopright section */
+  .righttopright :first-child {
+    border: none; /* Remove default border */
+    color: white; /* Set text color */
+    background-color: #0e0e0e; /* Set background color */
+    padding: 13px; /* Padding */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Styling for buttons in the righttopright section */
+  .righttopright button {
+    border: none; /* Remove default border */
+    color: #0e0e0e; /* Set text color */
+    background-color: white; /* Set background color */
+    padding: 13px; /* Padding */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 20px; /* Rounded corners */
+    font-weight: 600; /* Set font weight */
+  }
+  
+  /* Styling for headings in the rightbottom section */
+  .rightbottom h3 {
+    padding: 0px; /* Top padding */
+    margin: 0;
+  }
+  
+
+  /* Styling for album cards */
+  .albumcard {
+    background-color: #121212; /* Set background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+    overflow: hidden; /* Hide overflow */
+    width: 100px; /* Fixed width of 70px */
+    text-align: center; /* Center text */
+    margin: 10px; /* Commented out margin */
+    padding: 15px; /* Padding */
+    height: 160px;
+  }
+  
+  /* Styling for images in album cards */
+  .albumcard img {
+    height: 70%; /* Fixed height of 60px */
+    width: 100%; /* Full width */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 5px; /* Bottom margin */
+  }
+  
+  /* Styling for paragraphs in album cards */
+  .albumcard p {
+    margin: 5px 0; /* Margin */
+  }
+  
+  /* Styling for the first paragraph in album cards */
+  .albumcard p:first-of-type {
+    font-weight: bold; /* Set font weight */
+    font-size: 10px; /* Set font size */
+  }
+  
+  /* Styling for the last paragraph in album cards */
+  .albumcard p:last-of-type {
+    color: #b3b3b3; /* Set text color */
+    font-size: 8px; /* Set font size */
+  }
+  
+  /* Styling for the bottom part of the rightbottom section */
+  .RightBottom {
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Gap between flex items */
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 270px; /* Fixed height of 180px */
+  }
+  
+  /* Custom scrollbar styling for WebKit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #121212; /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #3d3939; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+    border: 3px solid #121212; /* Padding around the scrollbar thumb */
+  }
+  
+  .songslist ul{
+    list-style: none;
+    padding: 0;
+    padding: 0 10px;
+  }
+  .songslist ul li{
+    place-items: center;
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+
+  .songslist ul li img{
+    width: 20px;
+  }
+  .songslist ul li .songName{
+    font-size: 11px;
+  }
+
+  .rightlow{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 15px;
+    border-radius: 30px;
+    background-color:#121212 ;
+    padding: 10px 0px;
+  }
+  .SongControl img{
+    width: 25px;
+  }
+  .LibrarySongsList{
+    cursor: pointer;
+  }
+  .SongInfo{
+    display: flex;
+    width: 50vw;
+    place-content: space-evenly;
+  }
+  .leftbottommiddle{
+      overflow-y: scroll;
+      height: 40%;
+  }
+  .SongBar{
+    height: 8px;
+    width: 50vw;
+    background-color: #1b1b1b;
+    cursor: pointer;
+    position: relative;
+    border-radius: 3px;
+  }
+  .SeekSongBar{
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+    left: 0%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    transition: left 0.5s;
+  }
+  .volume-control {
+    width: 100px;
+    margin: 10px;
+  }
+  
+  #volumeSlider {
+    width: 100%;
+  }
+
+  .SongControl{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
